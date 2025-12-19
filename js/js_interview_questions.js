@@ -925,6 +925,8 @@ for (let i = 0; i <= str.length - 1; i++) {
 }
 console.log(result.join(' '));
 
+// now i reverse the str by using for loop as well
+
 
 
 
