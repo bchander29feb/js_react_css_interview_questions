@@ -913,6 +913,18 @@ function reverseit(reverseStr) {
 }
 console.log(reverseit(str));
 
+// Hi My Name is John
+// iH yM emaN si nhoJ
+
+let str = 'Hi My Name is John';
+str = str.split(' ');
+
+let result = [];
+for (let i = 0; i <= str.length - 1; i++) {
+  result.push(str[i].split('').reverse().join(''));
+}
+console.log(result.join(' '));
+
 
 
 
