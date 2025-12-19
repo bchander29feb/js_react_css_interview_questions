@@ -898,6 +898,20 @@ console.log(userObj.name);
 const data = JSON.parse(localStorage.getItem("user"));
 console.log(data.age);
 
+rever each word > ?
+// Hi My Name is John
+// iH yM emaN si nhoJ
+
+let str = 'Hi My Name is John';
+function reverseit(reverseStr) {
+  let result = reverseStr
+    .split(' ')
+    .map((val) => val.split().reverse())
+    .join(' ');
+
+  return result;
+}
+console.log(reverseit(str));
 
 
 
