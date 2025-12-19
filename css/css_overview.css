@@ -1,0 +1,20 @@
+1.what is grid in css ? 
+ 
+CSS Grid एक 2-dimensional layout system है।
+मतलब rows और columns दोनों control कर सकते हैं।
+Grid container में आप items को rows और columns में place कर सकते हो।
+
+Example:
+container {
+  display: grid;
+  grid-template-columns: 100px 200px 100px; /* 3 columns */
+  grid-template-rows: 100px 100px;          /* 2 rows */
+  gap: 10px;                                /* rows & columns gap */
+}
+Use Case: Dashboard, complex layouts, image galleries
+
+Flexbox एक 1-dimensional layout system है।
+मतलब items row या column में ही arrange होते
+Flexbox का use mostly simple alignment जैसे navbar, buttons, horizontal या vertical items arrange करने में होता है।
+Flexbox में items flow order के हिसाब से arrange होते हैं और एक direction में ही control मिलता है।हैं।
+  
